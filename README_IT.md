@@ -61,6 +61,30 @@ python dall-e_ui.pyw
 
 L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave API di OpenAI, le dimensioni dell'immagine, il modello da utilizzare e la qualità dell'immagine. Premi il pulsante "Genera Immagine" per avviare la generazione dell'immagine, l'immagine verrà inoltre scaricherà dentro la cartella `img/`.
 
+### Uso del modulo
+Esempio d'uso del modulo ImageGenerator di dall-e.py
+```python
+from dall-e import ImageGenerator
+
+# Inizializza ImageGenerator senza passare argomenti (utilizzerà i valori di default da config.ini)
+generator = ImageGenerator()
+
+# Genera un'immagine utilizzando i valori di default
+response = generator.generate_image()
+print(response)
+
+# Oppure, puoi passare argomenti specifici per l'immagine che desideri generare
+prompt = "Il prompt per l'immagine"
+api_key = "La tua chiave API"
+size = "512x512"
+model = "dall-e-3"
+quality = "standard"
+
+generator_with_params = ImageGenerator(prompt=prompt, api_key=api_key, size=size, model=model, quality=quality)
+response = generator_with_params.generate_image() #L'url di risposta con l'immagine
+print(response)
+```
+
 ## Risultati
 
 Lo script genererà un'immagine utilizzando il prompt specificato e la visualizzerà nella console insieme all'URL dell'immagine generata da DALL-E.
@@ -84,30 +108,6 @@ python setup.py build
 Questo comando utilizzerà cx_Freeze per creare l'eseguibile del programma. L'eseguibile verrà creato nella directory `build` all'interno della directory corrente.
 
 Una volta completata la creazione dell'eseguibile, puoi eseguirlo semplicemente facendo doppio clic sul file `dall-e_ui.exe`.
-
-# Uso del modulo
-Esempio d'uso del modulo ImageGenerator di dall-e.py
-```python
-from dall-e import ImageGenerator
-
-# Inizializza ImageGenerator senza passare argomenti (utilizzerà i valori di default da config.ini)
-generator = ImageGenerator()
-
-# Genera un'immagine utilizzando i valori di default
-response = generator.generate_image()
-print(response)
-
-# Oppure, puoi passare argomenti specifici per l'immagine che desideri generare
-prompt = "Il prompt per l'immagine"
-api_key = "La tua chiave API"
-size = "512x512"
-model = "dall-e-3"
-quality = "standard"
-
-generator_with_params = ImageGenerator(prompt=prompt, api_key=api_key, size=size, model=model, quality=quality)
-response = generator_with_params.generate_image() #L'url di risposta con l'immagine
-print(response)
-```
 
 # Screenshot
 
