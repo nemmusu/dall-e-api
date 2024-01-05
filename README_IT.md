@@ -78,6 +78,7 @@ print(response)
 Esempio d'uso del modulo ImageGenerator di dall-e.py passando gli argomenti:
 
 ```python
+from dall-e import ImageGenerator
 # puoi passare argomenti specifici per l'immagine che desideri generare
 prompt = "Il prompt per l'immagine"
 api_key = "La tua chiave API"

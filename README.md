@@ -78,6 +78,7 @@ print(response)
 Example usage of the ImageGenerator module from dall-e.py by passing arguments:
 
 ```python
+from dall-e import ImageGenerator
 # You can pass specific arguments for the image you want to generate
 prompt = "The prompt for the image"
 api_key = "Your API key"
