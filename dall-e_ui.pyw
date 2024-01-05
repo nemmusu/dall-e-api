@@ -99,7 +99,7 @@ class DALL_E_Interface(QMainWindow):
         self.layout.addWidget(self.model_label)
         self.layout.addWidget(self.model_combo_box)
 
-        self.size_label = QLabel("Dimensioni (es. 512x512):")
+        self.size_label = QLabel("Dimensioni:")
         self.size_options_dall_e_2 = ['1024x1024', '1024x1792', '1792x1024', '256x256', '512x512']
         self.size_options_dall_e_3 = ['1024x1024', '1024x1792', '1792x1024']
         self.size_combo_box = QComboBox()
