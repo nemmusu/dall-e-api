@@ -64,3 +64,7 @@ L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave A
 ## Risultati
 
 Lo script genererà un'immagine utilizzando il prompt specificato e la visualizzerà nella console insieme all'URL dell'immagine generata da DALL-E.
+
+# Screenshot
+
+![Screenshot](https://github.com/nemmusu/dall-e-interface/blob/main/screenshots/interface_example.png)
