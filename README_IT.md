@@ -65,6 +65,26 @@ L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave A
 
 Lo script genererà un'immagine utilizzando il prompt specificato e la visualizzerà nella console insieme all'URL dell'immagine generata da DALL-E.
 
+# Compilazione
+Per creare l'eseguibile del programma `dall-e_ui.pyw`, è necessario utilizzare cx_Freeze, un modulo Python che consente di creare pacchetti eseguibili a partire da script Python.
+
+Prima di tutto, è necessario installare cx_Freeze utilizzando pip. Puoi eseguire il seguente comando nel tuo terminale:
+
+```
+pip install cx_Freeze
+```
+
+Una volta installato cx_Freeze, puoi procedere con la creazione dell'eseguibile del programma.
+Esegui il seguente comando per creare l'eseguibile:
+
+```
+python setup.py build
+```
+
+Questo comando utilizzerà cx_Freeze per creare l'eseguibile del programma. L'eseguibile verrà creato nella directory `build` all'interno della directory corrente.
+
+Una volta completata la creazione dell'eseguibile, puoi eseguirlo semplicemente facendo doppio clic sul file `dall-e_ui.exe`.
+
 # Screenshot
 
 ![Screenshot](https://github.com/nemmusu/dall-e-interface/blob/main/screenshots/interface_example.png)
