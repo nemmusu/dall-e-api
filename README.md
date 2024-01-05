@@ -95,7 +95,8 @@ from dall-e import ImageGenerator
 generator = ImageGenerator()
 
 # Generate an image using default values
-generator.generate_image()
+response = generator.generate_image()
+print(response)
 
 # Alternatively, you can pass specific arguments for the image you want to generate
 prompt = "The prompt for the image"

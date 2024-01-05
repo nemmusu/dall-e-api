@@ -94,7 +94,8 @@ from dall-e import ImageGenerator
 generator = ImageGenerator()
 
 # Genera un'immagine utilizzando i valori di default
-generator.generate_image()
+response = generator.generate_image()
+print(response)
 
 # Oppure, puoi passare argomenti specifici per l'immagine che desideri generare
 prompt = "Il prompt per l'immagine"
