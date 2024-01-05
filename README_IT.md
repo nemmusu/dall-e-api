@@ -115,6 +115,10 @@ Questo comando utilizzerà cx_Freeze per creare l'eseguibile del programma. L'es
 
 Una volta completata la creazione dell'eseguibile, puoi eseguirlo semplicemente facendo doppio clic sul file `dall-e_ui.exe`.
 
+# Eseguibile
+
+Nella cartella `build` è presente un file zip che contiene una versione eseguibile del programma (già compilata e pronta all uso).
+
 # Screenshot
 
 ![Screenshot](https://github.com/nemmusu/dall-e-interface/blob/main/screenshots/interface_example.png)

@@ -115,6 +115,10 @@ This command will use cx_Freeze to create the program's executable. The executab
 
 Once the executable creation is complete, you can run it simply by double-clicking the `dall-e_ui.exe` file.
 
+# Executable
+
+In the `build` folder, there is a zip file that contains an executable version of the program (already compiled and ready to use).
+
 # Screenshot
 
 ![Screenshot](https://github.com/nemmusu/dall-e-interface/blob/main/screenshots/interface_example.png)
