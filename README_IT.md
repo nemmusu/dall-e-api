@@ -92,7 +92,7 @@ print(response)
 
 ## Risultati
 
-Lo script genererà un'immagine utilizzando il prompt specificato e la visualizzerà nella console insieme all'URL dell'immagine generata da DALL-E.
+Lo script genererà un'immagine utilizzando il prompt specificato e visualizzerà nella console l'URL dell'immagine generata da DALL-E.
 
 # Compilazione
 Per creare l'eseguibile del programma `dall-e_ui.pyw`, è necessario utilizzare cx_Freeze, un modulo Python che consente di creare pacchetti eseguibili a partire da script Python.
