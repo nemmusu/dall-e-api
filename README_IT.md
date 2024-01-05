@@ -3,6 +3,25 @@
 
 [README: English](./README.md)
 
+# Tabella dei Contenuti
+
+Di seguito è riportata la tabella dei contenuti con i relativi collegamenti:
+
+- [Readme](#readme)
+    - [README: Italiano](./README_IT.md)
+    - [README: English](./README.md)
+- [Script di Generazione Immagini con DALL-E di OpenAI](#script-di-generazione-immagini-con-dall-e-di-openai)
+    - [Installazione](#installazione)
+    - [Configurazione](#configurazione)
+    - [Utilizzo](#utilizzo)
+        - [Modalità da riga di comando](#modalità-da-riga-di-comando)
+        - [Modalità con interfaccia grafica](#modalità-con-interfaccia-grafica)
+        - [Uso del modulo](#uso-del-modulo)
+    - [Risultati](#risultati)
+- [Compilazione](#compilazione)
+- [Eseguibile](#eseguibile)
+- [Screenshot](#screenshot)
+
 # Script di Generazione Immagini con DALL-E di OpenAI
 
 Questo è uno script Python che ti permette di generare immagini utilizzando il modello DALL-E di OpenAI. Puoi specificare il prompt di input, la chiave API di OpenAI, le dimensioni dell'immagine, il modello da utilizzare, la qualità dell'immagine e utilizza anche un'interfaccia grafica fornita dal file `dall-e_ui.pyw`.
