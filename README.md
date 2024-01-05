@@ -54,7 +54,7 @@ Esegui il seguente comando per utilizzare lo script con l'interfaccia grafica:
 python dall-e_ui.pyw
 ```
 
-L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave API di OpenAI, le dimensioni dell'immagine, il modello da utilizzare e la qualità dell'immagine. Premi il pulsante "Genera Immagine" per avviare la generazione dell'immagine.
+L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave API di OpenAI, le dimensioni dell'immagine, il modello da utilizzare e la qualità dell'immagine. Premi il pulsante "Genera Immagine" per avviare la generazione dell'immagine, l'immagine verrà inoltre scaricherà dentro la cartella `img/`.
 
 ## Risultati
 
