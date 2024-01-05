@@ -20,7 +20,7 @@ executables = [Executable('dall-e_ui.pyw', base="Win32GUI")]
 build_options = {
     'includes': include_modules,
     'include_files': [
-        ('config.ini', 'config.ini'),  # Includi il file di configurazione
+        ('config.ini'),  # Includi il file di configurazione
         # Aggiungi eventuali altri file necessari
     ],
 }
