@@ -62,7 +62,8 @@ python dall-e_ui.pyw
 L'interfaccia grafica ti permetterà di inserire il prompt di input, la chiave API di OpenAI, le dimensioni dell'immagine, il modello da utilizzare e la qualità dell'immagine. Premi il pulsante "Genera Immagine" per avviare la generazione dell'immagine, l'immagine verrà inoltre scaricherà dentro la cartella `img/`.
 
 ### Uso del modulo
-Esempio d'uso del modulo ImageGenerator di dall-e.py
+Esempio d'uso del modulo ImageGenerator di dall-e.py senza passare argomenti (utilizzerà i valori di default da config.ini):
+
 ```python
 from dall-e import ImageGenerator
 
@@ -72,8 +73,12 @@ generator = ImageGenerator()
 # Genera un'immagine utilizzando i valori di default
 response = generator.generate_image()
 print(response)
+```
 
-# Oppure, puoi passare argomenti specifici per l'immagine che desideri generare
+Esempio d'uso del modulo ImageGenerator di dall-e.py passando gli argomenti:
+
+```python
+# puoi passare argomenti specifici per l'immagine che desideri generare
 prompt = "Il prompt per l'immagine"
 api_key = "La tua chiave API"
 size = "512x512"
