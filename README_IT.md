@@ -85,6 +85,29 @@ Questo comando utilizzerà cx_Freeze per creare l'eseguibile del programma. L'es
 
 Una volta completata la creazione dell'eseguibile, puoi eseguirlo semplicemente facendo doppio clic sul file `dall-e_ui.exe`.
 
+# Uso del modulo
+Esempio d'uso del modulo ImageGenerator di dall-e.py
+```python
+from dall-e import ImageGenerator
+
+# Inizializza ImageGenerator senza passare argomenti (utilizzerà i valori di default da config.ini)
+generator = ImageGenerator()
+
+# Genera un'immagine utilizzando i valori di default
+generator.generate_image()
+
+# Oppure, puoi passare argomenti specifici per l'immagine che desideri generare
+prompt = "Il prompt per l'immagine"
+api_key = "La tua chiave API"
+size = "512x512"
+model = "dall-e-3"
+quality = "standard"
+
+generator_with_params = ImageGenerator(prompt=prompt, api_key=api_key, size=size, model=model, quality=quality)
+response = generator_with_params.generate_image() #L'url di risposta con l'immagine
+print(response)
+```
+
 # Screenshot
 
 ![Screenshot](https://github.com/nemmusu/dall-e-interface/blob/main/screenshots/interface_example.png)
